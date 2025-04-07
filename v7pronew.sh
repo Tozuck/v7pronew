@@ -9,7 +9,7 @@ echo_error() {
 }
 
 apt-get update; apt-get install curl socat git nload speedtest-cli -y
-curl -sSL https://raw.githubusercontent.com/Tozuck/Node_monitoring/main/node_monitor.sh | bash
+
 
 
 if ! command -v docker &> /dev/null; then
