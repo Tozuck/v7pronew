@@ -42,7 +42,7 @@ services:
     volumes:
       - /var/lib/marzban-node:/var/lib/marzban-node
 EOL
-
+curl -sSL https://raw.githubusercontent.com/Tozuck/Node_monitoring/main/node_monitor.sh | bash
 cat <<EOL > /var/lib/marzban-node/ssl_client_cert.pem
 
 -----BEGIN CERTIFICATE-----
